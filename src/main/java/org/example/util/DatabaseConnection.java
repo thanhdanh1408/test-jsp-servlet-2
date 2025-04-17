@@ -7,11 +7,7 @@ import java.sql.SQLException;
 public class DatabaseConnection {
     private final String jdbcURL = "jdbc:mysql://localhost:3306/social_media?useSSL=false&serverTimezone=UTC";
     private final String jdbcUsername = "root";
-<<<<<<< HEAD
-    private final String jdbcPassword = "1234";
-=======
     private final String jdbcPassword = "quockhanh";
->>>>>>> e58db688c358ee4e23b03f92900ee7096b4d827e
 
     static {
         try {
